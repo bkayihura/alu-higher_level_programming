@@ -1,3 +1,3 @@
-# higher_level_programming
+# Python - import & modules
 
-README is not empty
+This project covers how to import functions and variables from files and use modules in Python.

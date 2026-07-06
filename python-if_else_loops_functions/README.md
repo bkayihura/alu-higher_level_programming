@@ -1,3 +1,3 @@
-# higher_level_programming
+# Python - if/else, loops, functions
 
-README is not empty
+This project covers Python control flow tools including if/else statements, loops, and functions.
