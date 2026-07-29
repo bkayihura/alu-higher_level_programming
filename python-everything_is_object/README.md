@@ -1,13 +1,17 @@
 # python-everything_is_object
 
-This project explores how Python handles objects under the hood: the
-difference between `id()` and `type()`, mutable vs immutable objects,
-what an alias is, and how Python actually passes arguments to functions
-(by object reference, not by value or by pure reference).
+## Description
+This project explores Python's object model: how `id()` and `type()` work,
+the difference between mutable and immutable objects, what references,
+assignment, and aliasing mean, and how Python passes arguments to functions.
 
-## Tasks
-0-18. Conceptual questions about identity, equality, mutability, and
-      how variables reference objects.
-19. copy_list.py - returns a shallow copy of a list.
-20-28. Tuple identity and mutability edge cases.
-29. Blog post on mutable/immutable objects in Python.
+## Requirements
+- Ubuntu 20.04 LTS, Python 3.8.5
+- pycodestyle 2.7.*
+- All files executable, end with a newline
+- All `.py` files start with `#!/usr/bin/python3`
+- All `.txt` answer files contain a single line, no shebang
+
+## Blog Post
+Blog post URL: TODO
+LinkedIn share URL: TODO
