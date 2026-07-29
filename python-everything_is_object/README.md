@@ -13,5 +13,6 @@ assignment, and aliasing mean, and how Python passes arguments to functions.
 - All `.txt` answer files contain a single line, no shebang
 
 ## Blog Post
-Blog post URL: TODO
-LinkedIn share URL: TODO
+- **Title**: Python: Mutable, Immutable... Everything is an Object!
+- **URL**: https://medium.com/@b.kayihura/python-mutable-immutable-everything-is-an-object-cd5bebd0bcc5
+- **LinkedIn Share**: TODO (Update this after sharing on LinkedIn )
