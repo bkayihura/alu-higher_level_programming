@@ -3,14 +3,22 @@ Test cases for text_indentation
 
 >>> text_indentation = __import__('5-text_indentation').text_indentation
 
->>> text_indentation("Hello. How are you? I am fine: thanks.")
-Hello.
+>>> text_indentation("Holberton School")
+Holberton School
+
+>>> text_indentation("Holberton.School")
+Holberton.
 <BLANKLINE>
-How are you?
+School
+
+>>> text_indentation("Holberton. School? How are you: John")
+Holberton.
 <BLANKLINE>
-I am fine:
+School?
 <BLANKLINE>
-thanks.
+How are you:
+<BLANKLINE>
+John
 
 >>> text_indentation(12)
 Traceback (most recent call last):

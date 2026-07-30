@@ -15,9 +15,9 @@ def text_indentation(text):
     if not isinstance(text, str):
         raise TypeError("text must be a string")
     result = ""
-    for i, char in enumerate(text):
+    for char in text:
         result += char
-        if char in ".?:" and (i + 1 == len(text) or text[i + 1] == " "):
+        if char in ".?:":
             result += "\n\n"
     lines = result.split("\n")
     while lines and lines[-1] == "":
