@@ -22,5 +22,8 @@ def text_indentation(text):
     lines = result.split("\n")
     while lines and lines[-1] == "":
         lines.pop()
-    for line in lines:
-        print(line.strip())
+    for i, line in enumerate(lines):
+        if i == len(lines) - 1:
+            print(line.strip(), end="")
+        else:
+            print(line.strip())
